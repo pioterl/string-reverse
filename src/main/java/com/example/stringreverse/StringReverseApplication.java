@@ -21,7 +21,7 @@ public class StringReverseApplication {
         System.out.println(reverseForLoop2(INPUT));
         long stopTime2 = System.currentTimeMillis();
         System.out.println(stopTime2 - startTime2 + " ms");
-
+//
         long startTime3 = System.currentTimeMillis();
         System.out.println(reverseStringBuilder(INPUT));
         long stopTime3 = System.currentTimeMillis();
