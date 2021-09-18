@@ -15,22 +15,22 @@ public class StringReverseApplication {
         long startTime = System.currentTimeMillis();
         System.out.println(reverseForLoop(INPUT));
         long stopTime = System.currentTimeMillis();
-        System.out.println(stopTime - startTime);
+        System.out.println(stopTime - startTime + " ms");
 
         long startTime2 = System.currentTimeMillis();
         System.out.println(reverseForLoop2(INPUT));
         long stopTime2 = System.currentTimeMillis();
-        System.out.println(stopTime2 - startTime2);
+        System.out.println(stopTime2 - startTime2 + " ms");
 
         long startTime3 = System.currentTimeMillis();
         System.out.println(reverseStringBuilder(INPUT));
         long stopTime3 = System.currentTimeMillis();
-        System.out.println(stopTime3 - startTime3);
+        System.out.println(stopTime3 - startTime3 + " ms");
 
         long startTime4 = System.currentTimeMillis();
         System.out.println(reverseApacheCommons(INPUT));
         long stopTime4 = System.currentTimeMillis();
-        System.out.println(stopTime4 - startTime4);
+        System.out.println(stopTime4 - startTime4 + " ms");
 
 
     }
